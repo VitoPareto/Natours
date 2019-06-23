@@ -21,4 +21,9 @@ body {
     color: #777;
 }
 
-
+.header {
+    height: 95vh;
+    background-image: url(../img/hero.jpg);
+    background-size: cover;
+    background-position: top;
+}
