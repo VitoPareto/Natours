@@ -59,6 +59,7 @@ body {
     text-transform: uppercase;
 
     backface-visibility: hidden;
+    margin-bottom: 60px;
 }
 
 .heading-primary-main {
@@ -116,16 +117,22 @@ body {
     }
 }
 
-/* pseudo classes - special states of the selector */
 .btn:link,
 .btn:visited {
     text-transform: uppercase;
     text-decoration: none;
     padding: 15px 40px;
-
-    /* always do this if you want to use padding/height/width */
     display: inline-block; 
     text-align: center;
+    border-radius: 100px;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+}
+
+.btn:active {
+    transform: translateY(-1px);
 }
 
 .btn-white {
